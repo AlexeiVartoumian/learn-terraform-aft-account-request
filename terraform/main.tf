@@ -11,7 +11,7 @@ module "sandbox" {
   }
 
   account_tags = {
-    "Learn Tutorial" = "AFT1"
+    "Learn Tutorial" = "AFT2"
   }
 
   change_management_parameters = {
