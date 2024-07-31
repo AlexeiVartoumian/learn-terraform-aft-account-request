@@ -21,6 +21,28 @@ module "sandbox" {
 
   custom_fields = {
     group = "non-prod"
+     alternate_contact = jsonencode(
+      {
+        "billing"= {
+          "email-address" = "billing@mycompany.com",
+          "name"          = "Account Receiveable",
+          "phone-number"  = "+11234567890",
+          "title"         = "Billing Department"
+        },
+        "operations"= {
+          "email-address" = "ops@mycompany.com",
+          "name"          = "Operations 24/7",
+          "phone-number"  = "+11234567890",
+          "title"         = "DevOps Team"
+        },
+        "security"= {
+          "email-address" = "soc@mycompany.com",
+          "name"          = "Security Ops Center",
+          "phone-number"  = "+11234567890",
+          "title"         = "SOC Team"
+        }
+      }
+    )
   }
 
   account_customizations_name = "sandbox"
