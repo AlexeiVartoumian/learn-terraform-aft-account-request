@@ -27,7 +27,7 @@ module "sandbox" {
           "email-address" = "billing@mycompany.com",
           "name"          = "Account Receiveable",
           "phone-number"  = "+11234567890",
-          "title"         = "silly Billy Department"
+          "title"         = "sillyBilly Department"
         },
         "operations"= {
           "email-address" = "ops@mycompany.com",
