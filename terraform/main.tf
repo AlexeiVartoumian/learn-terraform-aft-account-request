@@ -36,7 +36,7 @@ module "sandbox" {
           "title"         = "DevOps Team"
         },
         "security"= {
-          "email-address" = "soc@mycompany.com",
+          "email-address" = "soc1@mycompany.com",
           "name"          = "Security Ops Center",
           "phone-number"  = "+11234567890",
           "title"         = "SOC Team"
