@@ -11,7 +11,7 @@ module "sandbox" {
   }
 
   account_tags = {
-    "Learn Tutorial" = "AFT"
+    "Learn Tutorial" = "AFT1"
   }
 
   change_management_parameters = {
@@ -36,7 +36,7 @@ module "sandbox" {
           "title"         = "DevOps Team"
         },
         "security"= {
-          "email-address" = "soc1@mycompany.com",
+          "email-address" = "soc@mycompany.com",
           "name"          = "Security Ops Center",
           "phone-number"  = "+11234567890",
           "title"         = "SOC Team"
