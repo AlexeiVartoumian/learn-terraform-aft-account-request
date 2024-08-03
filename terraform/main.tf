@@ -4,7 +4,7 @@ module "sandbox" {
   control_tower_parameters = {
     AccountEmail              = "alex.vartoumian+devRole1@gmail.com"
     AccountName               = "development_account"
-    ManagedOrganizationalUnit = "WholeSale/production"
+    ManagedOrganizationalUnit = "production (ou-aklj-5ybhenyi)" #target specific OU based on service catalog template
     SSOUserEmail              = "alex.vartoumian+devRole1@gmail.com"
     SSOUserFirstName          = "devrole1"
     SSOUserLastName           = "devrole1"
