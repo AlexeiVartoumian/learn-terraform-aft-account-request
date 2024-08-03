@@ -2,16 +2,16 @@ module "sandbox" {
   source = "./modules/aft-account-request"
 
   control_tower_parameters = {
-    AccountEmail              = "alex.vartoumian+dummy4@gmail.com"
-    AccountName               = "dummy-account"
-    ManagedOrganizationalUnit = "AFT_management"
-    SSOUserEmail              = "alex.vartoumian+dummy4@gmail.com"
-    SSOUserFirstName          = "Sandbox"
-    SSOUserLastName           = "AFT"
+    AccountEmail              = "alex.vartoumian+devRole1@gmail.com"
+    AccountName               = "development_account"
+    ManagedOrganizationalUnit = "WholeSale/production"
+    SSOUserEmail              = "alex.vartoumian+devRole1@gmail.com"
+    SSOUserFirstName          = "devrole1"
+    SSOUserLastName           = "devrole1"
   }
 
   account_tags = {
-    "Learn Tutorial" = "AFT2"
+    "Learn Tutorial" = "AFT"
   }
 
   change_management_parameters = {
@@ -27,7 +27,7 @@ module "sandbox" {
           "email-address" = "billing@mycompany.com",
           "name"          = "Account Receiveable",
           "phone-number"  = "+11234567890",
-          "title"         = "sillybilly Department"
+          "title"         = "sillyBilly Department"
         },
         "operations"= {
           "email-address" = "ops@mycompany.com",
