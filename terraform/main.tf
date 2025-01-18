@@ -2,12 +2,12 @@ module "sandbox" {
   source = "./modules/aft-account-request"
 
   control_tower_parameters = {
-    AccountEmail              = "alex.vartoumian+devRole2@gmail.com"
-    AccountName               = "development_account2"
+    AccountEmail              = "alex.vartoumian+delegated@gmail.com"
+    AccountName               = "delegated_account_1"
     ManagedOrganizationalUnit = "production (ou-aklj-5ybhenyi)" #target specific OU based on service catalog template
-    SSOUserEmail              = "alex.vartoumian+devRole2@gmail.com"
-    SSOUserFirstName          = "devrole2"
-    SSOUserLastName           = "devrole2"
+    SSOUserEmail              = "alex.vartoumian+delegated@gmail.com"
+    SSOUserFirstName          = "delegate2"
+    SSOUserLastName           = "delegate2"
   }
 
   account_tags = {
